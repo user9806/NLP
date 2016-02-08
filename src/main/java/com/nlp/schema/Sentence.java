@@ -22,6 +22,10 @@ public class Sentence {
 		words.add(token);		
 	}
 	
+	public List<Token> getWords() {
+		return words;
+	}
+	
 	/** Outputs an xml representation of this sentence to the given StringBuilder.
 	 * 
 	 * @param sb      StringBuilder to print to

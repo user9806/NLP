@@ -23,6 +23,10 @@ public class Document {
 		sentences.add(sentence);
 	}
 	
+	public List<Sentence> getSentences() {
+		return sentences;
+	}
+	
 	
 	/** Outputs an xml representation of this document to the given StringBuilder.
 	 * 

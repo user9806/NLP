@@ -1,5 +1,9 @@
 package com.nlp.schema;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.nlp.ner.NamedEntity;
 
 /**
  *   A token represents a word in a sentence.
@@ -17,6 +21,7 @@ public class Token {
 	int sentenceNumber;
 	String beforeSymbol;
 	String afterSymbol;
+	List<NamedEntity> namedEntities;
 	
 	public Token(String str, int sentenceNumber) {
 		this(str, "", "", sentenceNumber);
@@ -57,6 +62,11 @@ public class Token {
 		  append("<word");
 		    if(beforeSymbol.length()>0)sb.append(" bef=\"").append(beforeSymbol).append("\"");
 		    if(afterSymbol.length()>0)sb.append(" aft=\"").append(afterSymbol).append("\"");
+		    if(namedEntities!=null){
+		    	sb.append(" entities=\"");
+		    	for(int i=0;i<namedEntities.size();i++)sb.append(namedEntities.get(i)).append(i<namedEntities.size()-1?",":"");
+		    	sb.append("\"");
+		    }
 		  sb.append(">").
 		append(str).append("</>");			
 	}
@@ -75,5 +85,14 @@ public class Token {
 
 	public String getAfterSymbol() {
 		return afterSymbol;
+	}
+	
+	public List<NamedEntity> getNamedEntities() {
+		return namedEntities;
+	}
+
+	public void tagWithNamedEntity(NamedEntity entity) {		
+		if(namedEntities==null)namedEntities = new ArrayList<NamedEntity>();
+		namedEntities.add(entity);
 	}
 }
