@@ -41,7 +41,11 @@ the token ```Maxwell's```, (which will be parsed into content=Maxwells, after sy
    "Test .3 sides" is two ("Test", and "3 sides")
 6. Numbers are considered as words for the purposes of the parsed schema.
 
-#### 
+#### Limitations/alternative approaches
+The lexer implementation could have been done using simpler string parsing and/or regular expressions, though the finite state approach is possibly more maintenable and cleaner and more amenable to changes. It could also have been implemented by specifying a grammar and using recursive descent parsing or similar, but for this project this would probably been have too much.
+
+The named entity recognition that was implemented can of course be extended to detect more matches, such as tokens that don't quite match syntactically but are semantically similar.
+
 #### Example structure of the output schema
 
 ```
