@@ -1,0 +1,143 @@
+<document name=nlp_data>
+    <sentence num=0>
+            <word>The</>
+            <word>term</>
+            <word bef=""">First</>
+            <word>World</>
+            <word aft=""">War</>
+            <word>was</>
+            <word>first</>
+            <word>used</>
+            <word>in</>
+            <word>September</>
+            <word>1914</>
+            <word>by</>
+            <word>the</>
+            <word>German</>
+            <word>philosopher</>
+            <word>Ernst</>
+            <word aft=",">Haeckel</>
+            <word>who</>
+            <word>claimed</>
+            <word>that</>
+            <word bef=""">there</>
+            <word>is</>
+            <word>no</>
+            <word>doubt</>
+            <word>that</>
+            <word>the</>
+            <word>course</>
+            <word>and</>
+            <word>character</>
+            <word>of</>
+            <word>the</>
+            <word>feared</>
+            <word bef="'">European</>
+            <word aft="'">War</>
+            <word>will</>
+            <word>become</>
+            <word>the</>
+            <word>first</>
+            <word>world</>
+            <word>war</>
+            <word>in</>
+            <word>the</>
+            <word>full</>
+            <word>sense</>
+            <word>of</>
+            <word>the</>
+            <word>word</>
+    </sentence>
+    <sentence num=1>
+            <word bef=""">Why</>
+            <word>did</>
+            <word>the</>
+            <word>war</>
+            <word>begin</>
+    </sentence>
+    <sentence num=2>
+            <word>The</>
+            <word>immediate</>
+            <word>trigger</>
+            <word>for</>
+            <word>war</>
+            <word>was</>
+            <word>the</>
+            <word>28</>
+            <word>June</>
+            <word>1914</>
+            <word>assassination</>
+            <word>of</>
+            <word>Archduke</>
+            <word>Franz</>
+            <word>Ferdinand</>
+            <word>of</>
+            <word aft=",">Austria</>
+            <word>heir</>
+            <word>to</>
+            <word>the</>
+            <word>throne</>
+            <word>of</>
+            <word aft=",">Austria-Hungary</>
+            <word>by</>
+            <word>Yugoslav</>
+            <word>nationalist</>
+            <word>Gavrilo</>
+            <word>Princip</>
+            <word bef="(">19</>
+            <word>years</>
+            <word>old</>
+            <word>at</>
+            <word>the</>
+            <word aft=")">time</>
+            <word>in</>
+            <word>Sarajevo</>
+    </sentence>
+    <sentence num=3>
+            <word>This</>
+            <word>set</>
+            <word>off</>
+            <word>a</>
+            <word>diplomatic</>
+            <word>crisis</>
+            <word>when</>
+            <word>Austria-Hungary</>
+            <word>delivered</>
+            <word>an</>
+            <word>ultimatum</>
+            <word>to</>
+            <word>the</>
+            <word>Kingdom</>
+            <word>of</>
+            <word aft=",">Serbia</>
+            <word>and</>
+            <word>entangled</>
+            <word>international</>
+            <word>alliances</>
+            <word>formed</>
+            <word>over</>
+            <word>the</>
+            <word>previous</>
+            <word>decades</>
+            <word>were</>
+            <word>invoked</>
+    </sentence>
+    <sentence num=4>
+            <word>Within</>
+            <word aft=",">weeks</>
+            <word>the</>
+            <word>major</>
+            <word>powers</>
+            <word>were</>
+            <word>at</>
+            <word>war</>
+            <word>and</>
+            <word>the</>
+            <word>conflict</>
+            <word>soon</>
+            <word>spread</>
+            <word>around</>
+            <word>the</>
+            <word>world</>
+    </sentence>
+</document>
