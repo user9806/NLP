@@ -26,7 +26,7 @@ public class Parser {
 		this.documentName = documentName;
 	}
 	
-	public Document parseDocument(Reader reader) {
+	public Document parseDocument() {
 		Document doc = new Document(documentName);
 		
 	    Iterator<Token> it = lex.iterator();

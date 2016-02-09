@@ -240,7 +240,8 @@ public class Lexer implements Iterable<Token> {
     	
     	//Lexer lex = new Lexer("Test 3. Two");
     	//Lexer lex = new Lexer("Test...Two");
-    	Lexer lex = new Lexer("Test ...(A') .3 0.14...\n\n\n word.");
+    	//Lexer lex = new Lexer("Test ...(A') .3 0.14...\n\n\n word.");
+    	Lexer lex = new Lexer("Maxwell's equations"); 
     	
     	
     	Iterator<Token> it = lex.iterator();

@@ -1,0 +1,1342 @@
+Recognized named entities :
+Elements
+Venice
+Bible
+Euclid
+Carl Benjamin Boyer
+Sea of Tranquility
+Isaac Newton
+Sea of Tranquility
+Broyden–Fletcher–Goldfarb–Shanno
+BFGS
+Llywelyn ap Gruffudd
+Robert of Belleme
+Montgomery Castle
+England
+Sea of Tranquility
+King Henry III
+Shrewsbury
+Wales
+Prince of Wales
+Powys
+Roger de Montgomery
+Antikythera
+Olympic Games
+Sea of Tranquility
+North America
+Sea of Tranquility
+Japan
+Pacific Ocean
+Sea of Tranquility
+North America
+Oracle Corporation
+Sun Microsystems
+Sun
+Buzz Aldrin
+Neil Armstrong
+Apollo 11
+Sea of Tranquility
+Moon
+Michael Collins
+Earth
+Buzz Aldrin
+Neil Armstrong
+Apollo 11
+Sea of Tranquility
+Pacific Ocean
+Moon
+Michael Collins
+Earth
+Isaac Newton
+Albert Einstein
+Sea of Tranquility
+James Clerk Maxwell
+Newton
+
+Documents xml representation :
+
+<documents>
+    <document name="nlp_data/d01.txt">
+            <sentence num=0>
+                    <word aft="'" entities="Euclid">Euclids</>
+                    <word entities="Elements">Elements</>
+                    <word>has</>
+                    <word>been</>
+                    <word>referred</>
+                    <word>to</>
+                    <word>as</>
+                    <word>the</>
+                    <word>most</>
+                    <word>successful</>
+                    <word>and</>
+                    <word>influential</>
+                    <word>textbook</>
+                    <word>ever</>
+                    <word>written</>
+        </sentence>
+            <sentence num=1>
+                    <word>First</>
+                    <word>set</>
+                    <word>in</>
+                    <word>type</>
+                    <word>in</>
+                    <word entities="Venice">Venice</>
+                    <word>in</>
+                    <word>1482</>
+                    <word>it</>
+                    <word>is</>
+                    <word>one</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>very</>
+                    <word>earliest</>
+                    <word>mathematical</>
+                    <word>works</>
+                    <word>to</>
+                    <word>be</>
+                    <word>printed</>
+                    <word>after</>
+                    <word>the</>
+                    <word>invention</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>printing</>
+                    <word>press</>
+                    <word>and</>
+                    <word>was</>
+                    <word>estimated</>
+                    <word>by</>
+                    <word entities="Carl Benjamin Boyer">Carl</>
+                    <word entities="Carl Benjamin Boyer">Benjamin</>
+                    <word entities="Carl Benjamin Boyer">Boyer</>
+                    <word>to</>
+                    <word>be</>
+                    <word>second</>
+                    <word>only</>
+                    <word>to</>
+                    <word>the</>
+                    <word entities="Bible">Bible</>
+                    <word>in</>
+                    <word>the</>
+                    <word>number</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>editions</>
+                    <word aft=",">published</>
+                    <word>with</>
+                    <word>the</>
+                    <word>number</>
+                    <word>reaching</>
+                    <word>well</>
+                    <word>over</>
+                    <word>one</>
+                    <word>thousand</>
+        </sentence>
+            <sentence num=2>
+                    <word>For</>
+                    <word aft=",">centuries</>
+                    <word>knowledge</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>at</>
+                    <word>least</>
+                    <word>part</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word entities="Elements">Elements</>
+                    <word>was</>
+                    <word>required</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>all</>
+                    <word>students</>
+        </sentence>
+            <sentence num=3>
+                    <word>Not</>
+                    <word>until</>
+                    <word>the</>
+                    <word>20</>
+                    <word>h</>
+                    <word aft=",">century</>
+                    <word>by</>
+                    <word>which</>
+                    <word>time</>
+                    <word>its</>
+                    <word>content</>
+                    <word>was</>
+                    <word>universally</>
+                    <word>taught</>
+                    <word>through</>
+                    <word>other</>
+                    <word>school</>
+                    <word aft=",">textbooks</>
+                    <word>did</>
+                    <word>it</>
+                    <word>cease</>
+                    <word>to</>
+                    <word>be</>
+                    <word>considered</>
+                    <word>something</>
+                    <word>all</>
+                    <word>educated</>
+                    <word>people</>
+                    <word>had</>
+                    <word>read</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d02.txt">
+            <sentence num=0>
+                    <word>The</>
+                    <word entities="Broyden–Fletcher–Goldfarb–Shanno">Broyden–Fletcher–Goldfarb–Shanno</>
+                    <word bef="(" aft=")" entities="BFGS">BFGS</>
+                    <word>algorithm</>
+                    <word>is</>
+                    <word>an</>
+                    <word>iterative</>
+                    <word>method</>
+                    <word>for</>
+                    <word>solving</>
+                    <word>unconstrained</>
+                    <word>nonlinear</>
+                    <word>optimization</>
+                    <word>problems</>
+        </sentence>
+            <sentence num=1>
+                    <word>The</>
+                    <word entities="BFGS">BFGS</>
+                    <word>method</>
+                    <word>approximates</>
+                    <word aft="'" entities="Isaac Newton">Newtons</>
+                    <word aft=",">method</>
+                    <word>a</>
+                    <word>class</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>hill-climbing</>
+                    <word>optimization</>
+                    <word>techniques</>
+                    <word>that</>
+                    <word>seeks</>
+                    <word>a</>
+                    <word>stationary</>
+                    <word>point</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>a</>
+                    <word bef="(">preferably</>
+                    <word>twice</>
+                    <word>continuously</>
+                    <word aft=")">differentiable</>
+                    <word>function</>
+        </sentence>
+            <sentence num=2>
+                    <word>For</>
+                    <word>such</>
+                    <word aft=",">problems</>
+                    <word>a</>
+                    <word>necessary</>
+                    <word>condition</>
+                    <word>for</>
+                    <word>optimality</>
+                    <word>is</>
+                    <word>that</>
+                    <word>the</>
+                    <word>gradient</>
+                    <word>be</>
+                    <word>zero</>
+        </sentence>
+            <sentence num=3>
+                    <word aft="'" entities="Isaac Newton">Newtons</>
+                    <word>method</>
+                    <word>and</>
+                    <word>the</>
+                    <word entities="BFGS">BFGS</>
+                    <word>methods</>
+                    <word>are</>
+                    <word>not</>
+                    <word>guaranteed</>
+                    <word>to</>
+                    <word>converge</>
+                    <word>unless</>
+                    <word>the</>
+                    <word>function</>
+                    <word>has</>
+                    <word>a</>
+                    <word>quadratic</>
+                    <word>Taylor</>
+                    <word>expansion</>
+                    <word>near</>
+                    <word>an</>
+                    <word>optimum</>
+        </sentence>
+            <sentence num=4>
+                    <word>These</>
+                    <word>methods</>
+                    <word>use</>
+                    <word>both</>
+                    <word>the</>
+                    <word>first</>
+                    <word>and</>
+                    <word>second</>
+                    <word>derivatives</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>function</>
+        </sentence>
+            <sentence num=5>
+                    <word aft=",">However</>
+                    <word entities="BFGS">BFGS</>
+                    <word>has</>
+                    <word>proven</>
+                    <word>to</>
+                    <word>have</>
+                    <word>good</>
+                    <word>performance</>
+                    <word>even</>
+                    <word>for</>
+                    <word>non-smooth</>
+                    <word>optimizations</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d03.txt">
+            <sentence num=0>
+                    <word entities="Montgomery Castle">Montgomery</>
+                    <word entities="Montgomery Castle">Castle</>
+                    <word>is</>
+                    <word>a</>
+                    <word>stone</>
+                    <word>masonry</>
+                    <word entities="Montgomery Castle">castle</>
+                    <word>looking</>
+                    <word>over</>
+                    <word>the</>
+                    <word>town</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Roger de Montgomery">Montgomery</>
+                    <word>in</>
+                    <word aft="," entities="Powys">Powys</>
+                    <word entities="Wales">Wales</>
+        </sentence>
+            <sentence num=1>
+                    <word>It</>
+                    <word>is</>
+                    <word>one</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>many</>
+                    <word>Norman</>
+                    <word>castles</>
+                    <word>on</>
+                    <word>the</>
+                    <word>border</>
+                    <word>between</>
+                    <word entities="Wales">Wales</>
+                    <word>and</>
+                    <word entities="England">England</>
+        </sentence>
+            <sentence num=2>
+                    <word>The</>
+                    <word>original</>
+                    <word entities="Montgomery Castle">castle</>
+                    <word>was</>
+                    <word>built</>
+                    <word>at</>
+                    <word>the</>
+                    <word>order</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Roger de Montgomery">Roger</>
+                    <word entities="Roger de Montgomery">de</>
+                    <word aft="," entities="Roger de Montgomery">Montgomery</>
+                    <word>earl</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Shrewsbury">Shrewsbury</>
+                    <word>sometime</>
+                    <word>between</>
+                    <word>1071</>
+                    <word>and</>
+                    <word>1074</>
+        </sentence>
+            <sentence num=3>
+                    <word>On</>
+                    <word>the</>
+                    <word>rebellion</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>his</>
+                    <word>son</>
+                    <word entities="Robert of Belleme">Robert</>
+                    <word entities="Robert of Belleme">of</>
+                    <word entities="Robert of Belleme">Belleme</>
+                    <word>in</>
+                    <word>1102</>
+                    <word>the</>
+                    <word entities="Montgomery Castle">castle</>
+                    <word>was</>
+                    <word>given</>
+                    <word>to</>
+                    <word>Baldwin</>
+                    <word entities="Roger de Montgomery">de</>
+                    <word>Boulers</>
+        </sentence>
+            <sentence num=4>
+                    <word>In</>
+                    <word>1267</>
+                    <word entities="Roger de Montgomery">Montgomery</>
+                    <word>was</>
+                    <word>the</>
+                    <word>meeting</>
+                    <word>place</>
+                    <word>for</>
+                    <word>treaty</>
+                    <word aft=",">negotiations</>
+                    <word>where</>
+                    <word entities="King Henry III">King</>
+                    <word entities="King Henry III">Henry</>
+                    <word entities="King Henry III">III</>
+                    <word>granted</>
+                    <word entities="Llywelyn ap Gruffudd">Llywelyn</>
+                    <word entities="Llywelyn ap Gruffudd">ap</>
+                    <word entities="Llywelyn ap Gruffudd">Gruffudd</>
+                    <word>the</>
+                    <word>title</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Prince of Wales">Prince</>
+                    <word entities="Prince of Wales">of</>
+                    <word entities="Prince of Wales,Wales">Wales</>
+        </sentence>
+            <sentence num=5>
+                    <word>After</>
+                    <word>1295</>
+                    <word>and</>
+                    <word>the</>
+                    <word>final</>
+                    <word>Welsh</>
+                    <word>War</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>thirteenth</>
+                    <word>century</>
+                    <word>the</>
+                    <word entities="Montgomery Castle">castle</>
+                    <word>became</>
+                    <word>more</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>a</>
+                    <word>military</>
+                    <word>backwater</>
+                    <word>and</>
+                    <word>prison</>
+                    <word>than</>
+                    <word>a</>
+                    <word>front</>
+                    <word>line</>
+                    <word>fortress</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d04.txt">
+            <sentence num=0>
+                    <word>The</>
+                    <word entities="Antikythera">Antikythera</>
+                    <word>mechanism</>
+                    <word>is</>
+                    <word>an</>
+                    <word>ancient</>
+                    <word>analog</>
+                    <word>computer</>
+                    <word>designed</>
+                    <word>to</>
+                    <word>predict</>
+                    <word>astronomical</>
+                    <word>positions</>
+                    <word>and</>
+                    <word>eclipses</>
+                    <word>for</>
+                    <word>calendrical</>
+                    <word>and</>
+                    <word>astrological</>
+                    <word aft=",">purposes</>
+                    <word>as</>
+                    <word>well</>
+                    <word>as</>
+                    <word>the</>
+                    <word>cycles</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Olympic Games">Olympic</>
+                    <word entities="Olympic Games">Games</>
+        </sentence>
+            <sentence num=1>
+                    <word>Found</>
+                    <word>housed</>
+                    <word>in</>
+                    <word>a</>
+                    <word>340</>
+                    <word>180</>
+                    <word>90</>
+                    <word>mm</>
+                    <word>wooden</>
+                    <word aft=",">box</>
+                    <word>the</>
+                    <word>device</>
+                    <word>is</>
+                    <word>a</>
+                    <word>complex</>
+                    <word>clockwork</>
+                    <word>mechanism</>
+                    <word>composed</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>at</>
+                    <word>least</>
+                    <word>30</>
+                    <word>meshing</>
+                    <word>bronze</>
+                    <word>gears</>
+        </sentence>
+            <sentence num=2>
+                    <word>Its</>
+                    <word>remains</>
+                    <word>were</>
+                    <word>found</>
+                    <word>as</>
+                    <word>82</>
+                    <word>separate</>
+                    <word aft=",">fragments</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>which</>
+                    <word>only</>
+                    <word>seven</>
+                    <word>contain</>
+                    <word>any</>
+                    <word>gears</>
+                    <word>or</>
+                    <word>significant</>
+                    <word>inscriptions</>
+        </sentence>
+            <sentence num=3>
+                    <word>The</>
+                    <word>largest</>
+                    <word>gear</>
+                    <word>is</>
+                    <word>approximately</>
+                    <word>140</>
+                    <word>mm</>
+                    <word>in</>
+                    <word>diameter</>
+        </sentence>
+            <sentence num=4>
+                    <word>The</>
+                    <word>artifact</>
+                    <word>was</>
+                    <word>recovered</>
+                    <word>in</>
+                    <word>1901</>
+                    <word>from</>
+                    <word>the</>
+                    <word entities="Antikythera">Antikythera</>
+                    <word>shipwreck</>
+                    <word>off</>
+                    <word>the</>
+                    <word>Greek</>
+                    <word>island</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Antikythera">Antikythera</>
+        </sentence>
+            <sentence num=5>
+                    <word>Believed</>
+                    <word>to</>
+                    <word>have</>
+                    <word>been</>
+                    <word>designed</>
+                    <word>and</>
+                    <word>constructed</>
+                    <word>by</>
+                    <word>Greek</>
+                    <word aft=",">scientists</>
+                    <word>the</>
+                    <word>instrument</>
+                    <word>has</>
+                    <word>been</>
+                    <word>dated</>
+                    <word>either</>
+                    <word>between</>
+                    <word>150</>
+                    <word>to</>
+                    <word>100</>
+                    <word>BC</>
+                    <word aft=",">or</>
+                    <word>according</>
+                    <word>to</>
+                    <word>a</>
+                    <word>more</>
+                    <word>recent</>
+                    <word aft=",">view</>
+                    <word>at</>
+                    <word>205</>
+                    <word>BC</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d05.txt">
+            <sentence num=0>
+                    <word>Horseshoe</>
+                    <word>crabs</>
+                    <word>are</>
+                    <word>marine</>
+                    <word>arthropods</>
+                    <word>that</>
+                    <word>live</>
+                    <word>primarily</>
+                    <word>in</>
+                    <word>and</>
+                    <word>around</>
+                    <word>shallow</>
+                    <word entities="Pacific Ocean">ocean</>
+                    <word>waters</>
+                    <word>on</>
+                    <word>soft</>
+                    <word>sandy</>
+                    <word>or</>
+                    <word>muddy</>
+                    <word>bottoms</>
+        </sentence>
+            <sentence num=1>
+                    <word>They</>
+                    <word>occasionally</>
+                    <word>come</>
+                    <word>onto</>
+                    <word>shore</>
+                    <word>to</>
+                    <word>mate</>
+        </sentence>
+            <sentence num=2>
+                    <word>They</>
+                    <word>are</>
+                    <word>commonly</>
+                    <word>used</>
+                    <word>as</>
+                    <word>bait</>
+                    <word>and</>
+                    <word>in</>
+                    <word>fertilizer</>
+        </sentence>
+            <sentence num=3>
+                    <word>In</>
+                    <word>recent</>
+                    <word aft=",">years</>
+                    <word>a</>
+                    <word>decline</>
+                    <word>in</>
+                    <word>the</>
+                    <word>population</>
+                    <word>has</>
+                    <word>occurred</>
+                    <word>as</>
+                    <word>a</>
+                    <word>consequence</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>coastal</>
+                    <word>habitat</>
+                    <word>destruction</>
+                    <word>in</>
+                    <word entities="Japan">Japan</>
+                    <word>and</>
+                    <word>overharvesting</>
+                    <word>along</>
+                    <word>the</>
+                    <word>east</>
+                    <word>coast</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="North America">North</>
+                    <word entities="North America">America</>
+        </sentence>
+            <sentence num=4>
+                    <word>Because</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>their</>
+                    <word>origin</>
+                    <word>450</>
+                    <word>million</>
+                    <word>years</>
+                    <word>ago</>
+                    <word bef="(" aft="),">Mya</>
+                    <word>horseshoe</>
+                    <word>crabs</>
+                    <word>are</>
+                    <word>considered</>
+                    <word>living</>
+                    <word>fossils</>
+        </sentence>
+            <sentence num=5>
+                    <word>Horseshoe</>
+                    <word>crabs</>
+                    <word>resemble</>
+                    <word aft=",">crustaceans</>
+                    <word>but</>
+                    <word>belong</>
+                    <word>to</>
+                    <word>a</>
+                    <word>separate</>
+                    <word aft=",">subphylum</>
+                    <word>and</>
+                    <word>are</>
+                    <word>closely</>
+                    <word>related</>
+                    <word>to</>
+                    <word>arachnids</>
+        </sentence>
+            <sentence num=6>
+                    <word>The</>
+                    <word>earliest</>
+                    <word>horseshoe</>
+                    <word>crab</>
+                    <word>fossils</>
+                    <word>are</>
+                    <word>found</>
+                    <word>in</>
+                    <word>strata</>
+                    <word>from</>
+                    <word>the</>
+                    <word>late</>
+                    <word>Ordovician</>
+                    <word aft=",">period</>
+                    <word>roughly</>
+                    <word>450</>
+                    <word>Mya</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d06.txt">
+            <sentence num=0>
+                    <word>A</>
+                    <word>differentiable</>
+                    <word>manifold</>
+                    <word>is</>
+                    <word>a</>
+                    <word>type</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>manifold</>
+                    <word>that</>
+                    <word>is</>
+                    <word>locally</>
+                    <word>similar</>
+                    <word>enough</>
+                    <word>to</>
+                    <word>a</>
+                    <word>linear</>
+                    <word>space</>
+                    <word>to</>
+                    <word>allow</>
+                    <word>one</>
+                    <word>to</>
+                    <word>do</>
+                    <word>calculus</>
+        </sentence>
+            <sentence num=1>
+                    <word>Any</>
+                    <word>manifold</>
+                    <word>can</>
+                    <word>be</>
+                    <word>described</>
+                    <word>by</>
+                    <word>a</>
+                    <word>collection</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word aft=",">charts</>
+                    <word>also</>
+                    <word>known</>
+                    <word>as</>
+                    <word>an</>
+                    <word>atlas</>
+        </sentence>
+            <sentence num=2>
+                    <word>One</>
+                    <word>may</>
+                    <word>then</>
+                    <word>apply</>
+                    <word>ideas</>
+                    <word>from</>
+                    <word>calculus</>
+                    <word>while</>
+                    <word>working</>
+                    <word>within</>
+                    <word>the</>
+                    <word>individual</>
+                    <word aft=",">charts</>
+                    <word>since</>
+                    <word>each</>
+                    <word>chart</>
+                    <word>lies</>
+                    <word>within</>
+                    <word>a</>
+                    <word>linear</>
+                    <word>space</>
+                    <word>to</>
+                    <word>which</>
+                    <word>the</>
+                    <word>usual</>
+                    <word>rules</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>calculus</>
+                    <word>apply</>
+        </sentence>
+            <sentence num=3>
+                    <word>If</>
+                    <word>the</>
+                    <word>charts</>
+                    <word>are</>
+                    <word>suitably</>
+                    <word>compatible</>
+                    <word bef="(" aft=",">namely</>
+                    <word>the</>
+                    <word>transition</>
+                    <word>from</>
+                    <word>one</>
+                    <word>chart</>
+                    <word>to</>
+                    <word>another</>
+                    <word>is</>
+                    <word aft="),">differentiable</>
+                    <word>then</>
+                    <word>computations</>
+                    <word>done</>
+                    <word>in</>
+                    <word>one</>
+                    <word>chart</>
+                    <word>are</>
+                    <word>valid</>
+                    <word>in</>
+                    <word>any</>
+                    <word>other</>
+                    <word>differentiable</>
+                    <word>chart</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d07.txt">
+            <sentence num=0>
+                    <word entities="Sun">Sun</>
+                    <word aft="," entities="Sun Microsystems">Microsystems</>
+                    <word>Inc</>
+        </sentence>
+            <sentence num=1>
+                    <word>was</>
+                    <word>a</>
+                    <word>company</>
+                    <word>that</>
+                    <word>sold</>
+                    <word aft=",">computers</>
+                    <word>computer</>
+                    <word aft=",">components</>
+                    <word>computer</>
+                    <word aft=",">software</>
+                    <word>and</>
+                    <word>information</>
+                    <word>technology</>
+                    <word>services</>
+                    <word>and</>
+                    <word>that</>
+                    <word>created</>
+                    <word>the</>
+                    <word>Java</>
+                    <word>programming</>
+                    <word>language</>
+                    <word>and</>
+                    <word>the</>
+                    <word>Network</>
+                    <word>File</>
+                    <word>System</>
+                    <word bef="(" aft=")">NFS</>
+        </sentence>
+            <sentence num=2>
+                    <word entities="Sun">Sun</>
+                    <word>significantly</>
+                    <word>evolved</>
+                    <word>several</>
+                    <word>key</>
+                    <word>computing</>
+                    <word aft=",">technologies</>
+                    <word>among</>
+                    <word>them</>
+                    <word aft=",">Unix</>
+                    <word>RISC</>
+                    <word aft=",">processors</>
+                    <word>thin</>
+                    <word>client</>
+                    <word aft=",">computing</>
+                    <word>and</>
+                    <word>virtualized</>
+                    <word>computing</>
+        </sentence>
+            <sentence num=3>
+                    <word entities="Sun">Sun</>
+                    <word>was</>
+                    <word>founded</>
+                    <word>on</>
+                    <word>February</>
+                    <word>24</>
+                    <word>1982</>
+        </sentence>
+            <sentence num=4>
+                    <word>On</>
+                    <word>January</>
+                    <word>27</>
+                    <word>2010</>
+                    <word entities="Sun">Sun</>
+                    <word>was</>
+                    <word>acquired</>
+                    <word>by</>
+                    <word entities="Oracle Corporation">Oracle</>
+                    <word entities="Oracle Corporation">Corporation</>
+                    <word>for</>
+                    <word>US</>
+                    <word>7.4</>
+                    <word>billion</>
+        </sentence>
+            <sentence num=5>
+                    <word>The</>
+                    <word>following</>
+                    <word aft=",">month</>
+                    <word entities="Sun">Sun</>
+                    <word>was</>
+                    <word>merged</>
+                    <word>with</>
+                    <word entities="Oracle Corporation">Oracle</>
+                    <word aft=",">USA</>
+                    <word>Inc</>
+        </sentence>
+            <sentence num=6>
+                    <word>to</>
+                    <word>become</>
+                    <word entities="Oracle Corporation">Oracle</>
+                    <word aft="," entities="North America">America</>
+                    <word>Inc</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d08.txt">
+            <sentence num=0>
+                    <word entities="Apollo 11">Apollo</>
+                    <word entities="Apollo 11">11</>
+                    <word>was</>
+                    <word>the</>
+                    <word>spaceflight</>
+                    <word>that</>
+                    <word>landed</>
+                    <word>the</>
+                    <word>first</>
+                    <word>humans</>
+                    <word>on</>
+                    <word>the</>
+                    <word aft="," entities="Moon">Moon</>
+                    <word>Americans</>
+                    <word entities="Neil Armstrong">Neil</>
+                    <word entities="Neil Armstrong">Armstrong</>
+                    <word>and</>
+                    <word entities="Buzz Aldrin">Buzz</>
+                    <word aft="," entities="Buzz Aldrin">Aldrin</>
+                    <word>on</>
+                    <word>July</>
+                    <word>20</>
+                    <word>1969</>
+        </sentence>
+            <sentence num=1>
+                    <word entities="Neil Armstrong">Armstrong</>
+                    <word>became</>
+                    <word>the</>
+                    <word>first</>
+                    <word>to</>
+                    <word>step</>
+                    <word>onto</>
+                    <word>the</>
+                    <word>lunar</>
+                    <word>surface</>
+                    <word>six</>
+                    <word>hours</>
+                    <word>later</>
+        </sentence>
+            <sentence num=2>
+                    <word entities="Neil Armstrong">Armstrong</>
+                    <word>spent</>
+                    <word>about</>
+                    <word>two</>
+                    <word>and</>
+                    <word>a</>
+                    <word>half</>
+                    <word>hours</>
+                    <word>outside</>
+                    <word>the</>
+                    <word aft=",">spacecraft</>
+                    <word entities="Buzz Aldrin">Aldrin</>
+                    <word>slightly</>
+                    <word aft=",">less</>
+                    <word>and</>
+                    <word>together</>
+                    <word>they</>
+                    <word>collected</>
+                    <word>47.5</>
+                    <word>pounds</>
+                    <word bef="(">21.5</>
+                    <word aft=")">kg</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>lunar</>
+                    <word>material</>
+                    <word>for</>
+                    <word>return</>
+                    <word>to</>
+                    <word entities="Earth">Earth</>
+        </sentence>
+            <sentence num=3>
+                    <word>The</>
+                    <word>third</>
+                    <word>member</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word aft=",">mission</>
+                    <word entities="Michael Collins">Michael</>
+                    <word aft="," entities="Michael Collins">Collins</>
+                    <word>piloted</>
+                    <word>the</>
+                    <word>command</>
+                    <word>spacecraft</>
+                    <word>alone</>
+                    <word>in</>
+                    <word>lunar</>
+                    <word>orbit</>
+                    <word>until</>
+                    <word entities="Neil Armstrong">Armstrong</>
+                    <word>and</>
+                    <word entities="Buzz Aldrin">Aldrin</>
+                    <word>returned</>
+                    <word>to</>
+                    <word>it</>
+                    <word>just</>
+                    <word>under</>
+                    <word>a</>
+                    <word>day</>
+                    <word>later</>
+                    <word>for</>
+                    <word>the</>
+                    <word>trip</>
+                    <word>back</>
+                    <word>to</>
+                    <word entities="Earth">Earth</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d09.txt">
+            <sentence num=0>
+                    <word>The</>
+                    <word entities="Apollo 11">Apollo</>
+                    <word>spacecraft</>
+                    <word>had</>
+                    <word>three</>
+                    <word aft=":">parts</>
+                    <word>a</>
+                    <word>Command</>
+                    <word>Module</>
+                    <word>with</>
+                    <word>a</>
+                    <word>cabin</>
+                    <word>for</>
+                    <word>the</>
+                    <word>three</>
+                    <word aft=",">astronauts</>
+                    <word>and</>
+                    <word>the</>
+                    <word>only</>
+                    <word>part</>
+                    <word>that</>
+                    <word>landed</>
+                    <word>back</>
+                    <word>on</>
+                    <word aft=";" entities="Earth">Earth</>
+                    <word>a</>
+                    <word>Service</>
+                    <word aft=",">Module</>
+                    <word>which</>
+                    <word>supported</>
+                    <word>the</>
+                    <word>Command</>
+                    <word>Module</>
+                    <word>with</>
+                    <word aft=",">propulsion</>
+                    <word>electrical</>
+                    <word aft=",">power</>
+                    <word aft=",">oxygen</>
+                    <word>and</>
+                    <word aft=";">water</>
+                    <word>and</>
+                    <word>a</>
+                    <word>Lunar</>
+                    <word>Module</>
+                    <word>for</>
+                    <word>landing</>
+                    <word>on</>
+                    <word>the</>
+                    <word entities="Moon">Moon</>
+        </sentence>
+            <sentence num=1>
+                    <word>After</>
+                    <word>being</>
+                    <word>sent</>
+                    <word>toward</>
+                    <word>the</>
+                    <word entities="Moon">Moon</>
+                    <word>by</>
+                    <word>the</>
+                    <word>Saturn</>
+                    <word aft="'">Vs</>
+                    <word>upper</>
+                    <word aft=",">stage</>
+                    <word>the</>
+                    <word>astronauts</>
+                    <word>separated</>
+                    <word>the</>
+                    <word>spacecraft</>
+                    <word>from</>
+                    <word>it</>
+                    <word>and</>
+                    <word>traveled</>
+                    <word>for</>
+                    <word>three</>
+                    <word>days</>
+                    <word>until</>
+                    <word>they</>
+                    <word>entered</>
+                    <word>into</>
+                    <word>lunar</>
+                    <word>orbit</>
+        </sentence>
+            <sentence num=2>
+                    <word entities="Neil Armstrong">Armstrong</>
+                    <word>and</>
+                    <word entities="Buzz Aldrin">Aldrin</>
+                    <word>then</>
+                    <word>moved</>
+                    <word>into</>
+                    <word>the</>
+                    <word>Lunar</>
+                    <word>Module</>
+                    <word>and</>
+                    <word>landed</>
+                    <word>in</>
+                    <word>the</>
+                    <word entities="Sea of Tranquility">Sea</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Sea of Tranquility">Tranquility</>
+        </sentence>
+            <sentence num=3>
+                    <word>They</>
+                    <word>stayed</>
+                    <word>a</>
+                    <word>total</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>about</>
+                    <word>21.5</>
+                    <word>hours</>
+                    <word>on</>
+                    <word>the</>
+                    <word>lunar</>
+                    <word>surface</>
+        </sentence>
+            <sentence num=4>
+                    <word>After</>
+                    <word>lifting</>
+                    <word>off</>
+                    <word>in</>
+                    <word>the</>
+                    <word>upper</>
+                    <word>part</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>Lunar</>
+                    <word>Module</>
+                    <word>and</>
+                    <word>rejoining</>
+                    <word entities="Michael Collins">Collins</>
+                    <word>in</>
+                    <word>the</>
+                    <word>Command</>
+                    <word aft=",">Module</>
+                    <word>they</>
+                    <word>returned</>
+                    <word>to</>
+                    <word entities="Earth">Earth</>
+                    <word>and</>
+                    <word>landed</>
+                    <word>in</>
+                    <word>the</>
+                    <word entities="Pacific Ocean">Pacific</>
+                    <word entities="Pacific Ocean">Ocean</>
+                    <word>on</>
+                    <word>July</>
+                    <word>24</>
+        </sentence>
+    </document>
+    <document name="nlp_data/d10.txt">
+            <sentence num=0>
+                    <word entities="James Clerk Maxwell">James</>
+                    <word entities="James Clerk Maxwell">Clerk</>
+                    <word entities="James Clerk Maxwell">Maxwell</>
+                    <word>was</>
+                    <word>a</>
+                    <word>Scottish</>
+                    <word>mathematical</>
+                    <word>physicist</>
+        </sentence>
+            <sentence num=1>
+                    <word>His</>
+                    <word>most</>
+                    <word>notable</>
+                    <word>achievement</>
+                    <word>was</>
+                    <word>to</>
+                    <word>formulate</>
+                    <word>the</>
+                    <word>classical</>
+                    <word>theory</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>electromagnetic</>
+                    <word aft=",">radiation</>
+                    <word>bringing</>
+                    <word>together</>
+                    <word>for</>
+                    <word>the</>
+                    <word>first</>
+                    <word>time</>
+                    <word aft=",">electricity</>
+                    <word aft=",">magnetism</>
+                    <word>and</>
+                    <word>light</>
+                    <word>as</>
+                    <word>manifestations</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>same</>
+                    <word>phenomenon</>
+        </sentence>
+            <sentence num=2>
+                    <word aft="'" entities="James Clerk Maxwell">Maxwells</>
+                    <word>equations</>
+                    <word>for</>
+                    <word>electromagnetism</>
+                    <word>have</>
+                    <word>been</>
+                    <word>called</>
+                    <word>the</>
+                    <word bef=""">second</>
+                    <word>great</>
+                    <word>unification</>
+                    <word>in</>
+                    <word aft=""">physics</>
+                    <word>after</>
+                    <word>the</>
+                    <word>first</>
+                    <word>one</>
+                    <word>realised</>
+                    <word>by</>
+                    <word entities="Isaac Newton">Isaac</>
+                    <word entities="Isaac Newton,Newton">Newton</>
+        </sentence>
+            <sentence num=3>
+                    <word entities="James Clerk Maxwell">Maxwell</>
+                    <word>demonstrated</>
+                    <word>that</>
+                    <word>electric</>
+                    <word>and</>
+                    <word>magnetic</>
+                    <word>fields</>
+                    <word>travel</>
+                    <word>through</>
+                    <word>space</>
+                    <word>as</>
+                    <word>waves</>
+                    <word>moving</>
+                    <word>at</>
+                    <word>the</>
+                    <word>speed</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>light</>
+        </sentence>
+            <sentence num=4>
+                    <word entities="James Clerk Maxwell">Maxwell</>
+                    <word>proposed</>
+                    <word>that</>
+                    <word>light</>
+                    <word>is</>
+                    <word>an</>
+                    <word>undulation</>
+                    <word>in</>
+                    <word>the</>
+                    <word>same</>
+                    <word>medium</>
+                    <word>that</>
+                    <word>is</>
+                    <word>the</>
+                    <word>cause</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>electric</>
+                    <word>and</>
+                    <word>magnetic</>
+                    <word>phenomena</>
+        </sentence>
+            <sentence num=5>
+                    <word>The</>
+                    <word>unification</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>light</>
+                    <word>and</>
+                    <word>electrical</>
+                    <word>phenomena</>
+                    <word>led</>
+                    <word>to</>
+                    <word>the</>
+                    <word>prediction</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>existence</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>radio</>
+                    <word>waves</>
+        </sentence>
+            <sentence num=6>
+                    <word>His</>
+                    <word>discoveries</>
+                    <word>helped</>
+                    <word>usher</>
+                    <word>in</>
+                    <word>the</>
+                    <word>era</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>modern</>
+                    <word aft=",">physics</>
+                    <word>laying</>
+                    <word>the</>
+                    <word>foundation</>
+                    <word>for</>
+                    <word>such</>
+                    <word>fields</>
+                    <word>as</>
+                    <word>special</>
+                    <word>relativity</>
+                    <word>and</>
+                    <word>quantum</>
+                    <word>mechanics</>
+        </sentence>
+            <sentence num=7>
+                    <word>His</>
+                    <word>contributions</>
+                    <word>to</>
+                    <word>the</>
+                    <word>science</>
+                    <word>are</>
+                    <word>considered</>
+                    <word>by</>
+                    <word>many</>
+                    <word>to</>
+                    <word>be</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word>the</>
+                    <word>same</>
+                    <word>magnitude</>
+                    <word>as</>
+                    <word>those</>
+                    <word entities="Sea of Tranquility">of</>
+                    <word entities="Isaac Newton">Isaac</>
+                    <word entities="Isaac Newton,Newton">Newton</>
+                    <word>and</>
+                    <word entities="Albert Einstein">Albert</>
+                    <word entities="Albert Einstein">Einstein</>
+        </sentence>
+            <sentence num=8>
+                    <word>QED</>
+        </sentence>
+    </document>
+</documents>

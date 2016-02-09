@@ -1,13 +1,26 @@
 package com.nlp;
 
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.HashSet;
+import java.util.List;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
+import com.nlp.Tasks.Task;
 import com.nlp.ner.NamedEntitiesTagger;
 import com.nlp.ner.NamedEntity;
 import com.nlp.schema.Document;
+import com.nlp.schema.Documents;
 import com.nlp.schema.Sentence;
 import com.nlp.schema.Token;
 
@@ -15,35 +28,41 @@ import com.nlp.schema.Token;
  * 
  * The main driver
  *
- * Parses the document nlp_data.txt and outputs a list of proper nouns
- * (named entities).
- * 
- *  Also, outputs a modified xml structure where tokens that form a part of
- *  a named entity are flagged with that named entity.  
+ * Parses the files in nlp_data.zip in parallel, and outputs a list of proper nouns
+ * (named entities) and the xml structure (Documents) for the files.
  *
  */
 
 public class Driver {
 
 	public static void main(String s[]) throws Exception {
-		Reader reader = new InputStreamReader(new FileInputStream("nlp_data.txt"), "UTF-8");
-		Parser parser = new Parser(reader, "nlp_data");		
-		Document document = parser.parseDocument();
+		ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors()*2);
 		
-		// tag the tokens that match the named entities
-		NamedEntitiesTagger nerTagger = new NamedEntitiesTagger("NER.txt");
-		for(Sentence sentence : document.getSentences())nerTagger.tagExact(sentence.getWords());
-		for(Sentence sentence : document.getSentences())nerTagger.tagInexact(sentence.getWords());
+		// Get a list of tasks. Each task is a file to parse from the zip file.
+		ZipFile zipFile = new ZipFile("nlp_data.zip");		
+		List<Task> tasks = Tasks.getTasksFromZip(zipFile, new NamedEntitiesTagger("NER.txt"));
+		
+		
+		// Submit the tasks to the executor service, and get futures
+		Tasks.submitTasks(executor, tasks);
 				
-		System.out.println("Recognized named entities :\n");
-		printNamedEntities(document);
+		// wait for the tasks to complete
+		Documents documents = Tasks.waitForCompletion(tasks);
 		
-		System.out.println("\nXml : \n");
-		
+		System.out.println("Recognized named entities :");
+		for(Document document : documents.getDocuments())printNamedEntities(document);		
+
+		System.out.println("\nDocuments xml representation :\n");
+		printOutDocuments(documents);
+
+		executor.shutdown();
+		zipFile.close();
+	}
+	
+	private static void printOutDocuments(Documents documents) {
 		StringBuilder sb = new StringBuilder(); 
-		document.toXml(sb, "");
-		System.out.println(sb.toString());
-		reader.close();
+		documents.toXml(sb, "");
+		System.out.println(sb.toString());		
 	}
 	
 	private static void printNamedEntities(Document doc) {
@@ -58,6 +77,5 @@ public class Driver {
 		}
 		
 		for(NamedEntity entity : set)System.out.println(entity);
-	}
-
+	}	
 }

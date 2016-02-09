@@ -27,6 +27,10 @@ public class Document {
 		return sentences;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
 	
 	/** Outputs an xml representation of this document to the given StringBuilder.
 	 * 
@@ -35,7 +39,7 @@ public class Document {
 	 */
 	
 	public void toXml(StringBuilder sb, String indent) {
-		sb.append(indent).append("<document name=").append(name).append(">\n");
+		sb.append(indent).append("<document name=\"").append(name).append("\">\n");
 		String newIndent = "    " + indent;
 		for(Sentence sentence : sentences){
 			sb.append(indent);
